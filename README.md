@@ -2,7 +2,7 @@
 A beginner-friendly AutoML web application built using Streamlit that enables users to upload datasets, explore data, engineer features, train machine learning models, evaluate performance, and export results — all from a simple UI, with support for both supervised and unsupervised learning.
 
 # Project Overview
-SmartML is designed for users with minimal coding experience who want to experiment with machine learning workflows. It runs efficiently on low-resource systems (like Intel i3 CPUs) and provides step-by-step EDA, model selection, training, and evaluation for classification, regression, clustering, and dimensionality reduction (PCA) tasks.
+SmartML is designed for users with minimal coding experience who want to experiment with machine learning workflows. It runs efficiently on low-resource systems and provides step-by-step EDA, model selection, training, and evaluation for classification, regression, clustering, and dimensionality reduction (PCA) tasks.
 
 # Features
 - Automatic ML Pipeline: Train classification, regression, and clustering models.
