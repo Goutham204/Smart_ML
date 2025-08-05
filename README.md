@@ -31,5 +31,5 @@ SmartML is designed for users with minimal coding experience who want to experim
 - Analysts working on low-spec machines
 - Quick model testing without coding
 
-
-
+# License
+This project is open-source under the MIT License.
