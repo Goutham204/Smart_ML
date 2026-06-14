@@ -49,9 +49,9 @@ if uploaded_file is not None:
 
     for col in df.columns:
         if df[col].dtype == 'object':
-            df[col].fillna(df[col].mode()[0], inplace=True)
-        else:
-            df[col].fillna(df[col].mean(), inplace=True)
+            df[col] = df[col].fillna(df[col].mode()[0] if not df[col].mode().empty else 'Unknown')
+        elif pd.api.types.is_numeric_dtype(df[col]):
+            df[col] = df[col].fillna(df[col].mean())
 
     st.subheader("Exploratory Data Analysis")
     numeric_df = df.select_dtypes(include='number')
