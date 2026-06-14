@@ -1,4 +1,4 @@
-# SmartML: Lightweight AutoML Web App for Model Training and Evaluation
+# AutoML: Lightweight AutoML Web App for Model Training and Evaluation
 A beginner-friendly AutoML web application built using Streamlit that enables users to upload datasets, explore data, engineer features, train machine learning models, evaluate performance, and export results — all from a simple UI, with support for both supervised and unsupervised learning.
 
 # Project Overview
